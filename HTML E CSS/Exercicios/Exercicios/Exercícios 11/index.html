@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+   <h1>Imagens dinâmicas</h1>
+   <p>Tente abrir esse sites em outros dispositivos, para ver o seu tamanho aumentar ou diminuir</p> 
+   <picture>
+    <source media="(max-width: 750px)" srcset="Imagens/Vermelho.png" type="image/png">
+    <source media="(max-width: 1000px)" srcset="imagens/rosa.png" type="image/png">
+    <img src="Imagens/Roxo.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audios</h1>
+    <p>vamos aprender a ter audios</p> 
+    <audio preload="metadata" autoplay controls loop>
+        <source src="Midias/I Wuv U - Jeremy Korpas.mp3" type="audio/mpeg ">
+        sou
+    </audio>
+    <p>seu navegador não consegue reproduzir o audio</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*#9882AC
+#D11149
+#2F242C*/
+
+:root {
+    --cor1:#9882AC;
+    --cor2:var(--cor2)
+}
+body {
+    background-image: linear-gradient(to left,#2F242C, #9882AC, #D11149);
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+}
+main {
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    max-width: 70%;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    
+}
+h1 {
+  text-align: center;  
+}
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #9882AC;
+    padding: 5px;
+    margin: 50px;
+}

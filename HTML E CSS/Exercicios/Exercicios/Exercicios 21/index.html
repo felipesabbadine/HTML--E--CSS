@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        /*
+        
+        */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-style: italic;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: pink;
+        }
+        a:active {
+            color: crimson;
+        }
+        a::before {
+            content: '--> ';
+        }
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@M4rkim/featured" target="_blank">Enygma</a></li>
+        <li><a href="https://www.youtube.com/@Enygma_Music" target="_blank">M4rkim</a></li>
+        <li><a href="https://www.youtube.com/@AniRap" target="_blank">Anirap</a></li>
+    </ul>
+</body>
+</html>

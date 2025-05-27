@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: aquamarine
+}
+
+h2 {
+    color: blue;
+}
+h1 {
+    color: darkblue;
+}
+h1#Protagonista {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h2.inicial {
+    color: blueviolet;
+}
+h2.meio {
+    color: darkorchid;
+}
+h2.final {
+    color: darkviolet;
+}
+.destaque {
+    color: white;
+}

@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Passion One;
+    src: url(Fontes/Passion_One/PassionOne-Bold.ttf) format(opentype);
+    font-weight: bold;
+    font-style: normal;
+    font-family: Sriracha;
+    src: url(Fontes/Sriracha/Sriracha-Regular.ttf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 35px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Passion One', Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding-top: 15px;
+}
+
+section {
+    text-align: left;
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    margin: 15px;
+}
+
+img {
+    width: 50%;
+    height:50%;
+}
+
+div {
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    max-width: 500px;
+    max-height: 500px;
+}
+div > img{
+    width: 100%;
+    height: 100%;
+}
+
+div > aside {
+    background-color: rgba(169, 169, 169, 0.322);
+    font-family: 'Sriracha', Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 30px;
+    color: white;
+}
