@@ -22,6 +22,7 @@ header {
 
 header > h1 {
     font-family: 'Passion One', Arial, Helvetica, sans-serif;
+    font-size: 10vw;
 }
 
 p {
@@ -35,6 +36,7 @@ section {
     padding-bottom: 30px;
     padding-left: 10px;
     margin: 15px;
+    font-size: 3vw;
 }
 
 img {
@@ -53,6 +55,7 @@ div > img{
 }
 
 div > aside {
+    display: inline-block;
     background-color: rgba(169, 169, 169, 0.322);
     font-family: 'Sriracha', Arial, Helvetica, sans-serif;
     position: absolute;
