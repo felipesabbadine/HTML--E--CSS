@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+ul li {
+    background-color: grey;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+article {
+    text-align: justify;
+}
