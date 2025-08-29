@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(187, 187, 180);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+menu > a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 10px;
+    
+}
+
+menu > a:hover {
+    background-color: white;
+    color: black;
+    transition: .55s;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 20px; 
+    
+    margin: 20px;  
+}
