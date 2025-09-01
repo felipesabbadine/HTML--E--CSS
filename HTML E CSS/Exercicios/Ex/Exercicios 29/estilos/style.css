@@ -38,6 +38,7 @@ header > menu >  a {
     background-color: grey;
     padding: 10px;
     margin: 5px;
+    border-radius: 10px;
 }
 
 menu > a:hover {
@@ -47,7 +48,7 @@ menu > a:hover {
 }
 
 main {
-    background-color: aliceblue;
+    background-color: #f0f8ff;
     padding: 20px; 
     
     margin: 20px;  
