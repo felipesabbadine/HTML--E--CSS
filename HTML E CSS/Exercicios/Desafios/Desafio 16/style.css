@@ -44,6 +44,14 @@ menu {
 menu > a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    padding: 8px;
+    background-color: #34113F;
+}
+
+menu > a:hover {
+    color: white;
+    background-color: #bba7d8;
+    transition: 0.5s;
 }
 
 main.principal {
